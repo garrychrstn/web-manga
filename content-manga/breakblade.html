@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break Blade</title>
+    <style type="text/css">
+    /*Don't Change*/
+        *       { margin: 0; padding: 0;                        }
+        a       { text-decoration: none; font-style: none;      }
+        li      { list-style: none;                             }
+        body    { background: rgb(240, 240, 240);             }
+    
+    /*Header*/
+        header {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            padding-right: 70px;
+            padding-left: 70px;
+            width: 70%;
+            margin: auto; 
+
+            background: rgb(240, 240, 240); 
+            border-bottom: rgb(41, 40, 40) solid 1px;
+            color: rgb(41, 40, 40);
+            display: flex;
+        }
+            header h1 {
+                font-family: "Century Gothic";
+                font-size: 35px;
+                flex: 2;
+            }
+            header nav {
+                flex: 1;
+                margin-top: 10px;
+            }
+                header ul {
+                    display: flex;
+                }
+                header li {
+                    margin-left: 20px;
+                }
+                header a {
+                    font-family: "Century Gothic";
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: rgb(41, 40, 40);
+                }
+    /*Content*/
+        #showoff {
+            width           : 80%;
+            margin          : auto;
+            padding-top     : 50px;
+            padding-bottom  : 50px;
+            padding-left    : 100px;
+            padding-right   : 100px;
+        }
+            .front {
+                display: flex;
+            }
+                .cover {
+                    flex: 1;
+                }
+                .details {
+                    flex: 2;
+                }
+                    .details h1 {
+                        text-align: center;
+                        font-family: "Century Gothic";
+                        font-size: 30px;
+                    }
+    /*Chapters & Volume*/
+        #chapters {
+            width           : 70%;
+            margin          : auto;
+            padding-top     : 50px;
+            padding-bottom  : 50px;
+            padding-left    : 70px;
+            padding-right   : 70px;
+            background      : rgb(226, 225, 225);
+        }
+            #chapters h1 {
+                border-bottom: 1px solid black;
+            }
+            #chapters a {
+                font-family: "Century Gothic";
+                font-size: 21px;
+                color: black; 
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Naraba
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a> | <a href="Register.html">Register</a></li>
+                <li><a href="list.html">List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="showoff">
+        <div class="front">
+            <div class="cover">
+                <img src="cover.jpg" width=300px;>
+            </div>
+            <div class="details">
+                <h1>Break Blade</h1>
+                <br>
+                <hr>
+                <br>
+                <ul>
+                    <li>Authors : ...............</li>
+                    <li>Release Date : ..................</li>
+                    <li>Status : Ongoing</li>
+                    <li>Rating : ...................</li>
+                    <li>Source : ............................</li>
+                    <li>Store : <a href="#">Amazone</a></li>
+                    <li>Group : ........................</li>
+                    <li>Spin-off : ...........................</li>
+                    <li>Doujinshi : .............................</li>
+                    <li>Download : <a href="#">GDrive</a>; <a href="#">Mega</a><a href="#">ZippyShare</a></li>
+                </ul>
+                <br>
+                <h2>Description</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, at eum! At explicabo esse perspiciatis, magni odit expedita, atque, nesciunt aperiam deserunt quaerat a iste tempora quisquam laboriosam quibusdam odio!</p>
+            </div>
+        </div>
+    </section>
+    <section id="chapters">
+        <h1>List of Volumes ( Download ):</h1>
+        <ul>
+            <li><a href="#">Volume 1</a></li>
+            <li><a href="#">Volume 2</a></li>
+            <li><a href="#">Volume 3</a></li>
+            <li><a href="#">Volume 4</a></li>
+            <li><a href="#">Volume 5</a></li>
+            <li><a href="#">Volume 6</a></li>
+            <li><a href="#">Volume 7</a></li>
+            <li><a href="#">Volume 8</a></li>
+            <li><a href="#">Volume 9</a></li>
+        </ul>
+    </section>
+</body>
+</html>

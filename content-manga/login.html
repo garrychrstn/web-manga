@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style type='text/css'>
+        /*Don't Change*/
+            *       { margin: 0; padding: 0;                        }
+            a       { text-decoration: none; font-style: none;      }
+            li      { list-style: none;                             }
+            body    { background: rgb(240, 240, 240);             }
+    
+        /*Header*/
+            header {
+                padding-top: 50px;
+                padding-bottom: 40px;
+                padding-right: 70px;
+                padding-left: 70px;
+                width: 70%;
+                margin: auto; 
+    
+                background: rgb(240, 240, 240); 
+                border-bottom: rgb(41, 40, 40) solid 1px;
+                color: rgb(41, 40, 40);
+                display: flex;
+            }
+                header h1 {
+                    font-family: "Century Gothic";
+                    font-size: 35px;
+                    flex: 2;
+                }
+                header nav {
+                    flex: 1;
+                    margin-top: 10px;
+                }
+                    header ul {
+                        display: flex;
+                    }
+                    header li {
+                        margin-left: 20px;
+                    }
+                    header a {
+                        font-family: "Century Gothic";
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: rgb(41, 40, 40);
+                    }
+        /*Form*/
+            #login {
+                width: 50%;
+                margin: auto;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+                #login h1 {
+                    font-family: "Century Gothic";
+                    font-size: 60px;
+                }
+                #login label {
+                    font-family: "Century Gothic";
+                    font-size: 30px;
+                }
+                #login .input {
+                    background: rgb(240, 240, 240);
+                    padding: 5px;
+                    outline: none;
+                    border: 0.5px rgb(41, 40, 40) solid;
+                    border-radius: 10px;
+                    width: 50%;
+                    
+                }
+                #login .button {
+                    padding: 10px;
+                    font-size: 20px;
+                    font-family: "Century Gothic";
+                    margin-top: 20px;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Naraba
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</li>
+                <li><a href="list.html">List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="login">
+        <form>
+            <h1>Login</h1>
+            <br>
+            <label for="username">Username</label><br>
+            <input class="input" type="text" name="username" id="username"><br>
+            <label for="password">Password</label><br>
+            <input class="input" type="password" name="password" id="password"><br>
+            <input class="button" type="button" value="login">
+        </form>
+    </section>
+    
+</body>
+</html>
